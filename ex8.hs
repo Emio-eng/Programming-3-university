@@ -1,4 +1,3 @@
-module Main where
 buscar :: Eq a => a -> [(a,b)] -> [b]
 buscar k xs = [v | (k', v) <- xs, k == k']
 
